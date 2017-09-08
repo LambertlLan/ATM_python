@@ -10,7 +10,7 @@
 
 day5-atm/
 ├── README
-├── atm #ATM主程目录
+├── atm #ATM主程目录\n
 │   ├── __init__.py
 │   ├── bin #ATM 执行文件 目录
 │   │   ├── __init__.py
