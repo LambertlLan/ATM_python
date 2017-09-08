@@ -7,16 +7,15 @@
     注意:只实现了"还款"和"取现功能"
 
 程序结构:  
-
-day5-atm/
-├── README
-├── atm #ATM主程目录\n
-│   ├── __init__.py
-│   ├── bin #ATM 执行文件 目录
-│   │   ├── __init__.py
-│   │   ├── atm.py  #ATM 执行程序
+day5-atm/  
+├── README  
+├── atm #ATM主程目录  
+│   ├── __init__.py  
+│   ├── bin #ATM 执行文件 目录  
+│   │   ├── __init__.py  
+│   │   ├── atm.py  #ATM 执行程序  
 │   │   └── manage.py #ATM 管理端,未实现
-│   ├── conf #配置文件
+│   ├── conf #配置文件  
 │   │   ├── __init__.py
 │   │   └── settings.py
 │   ├── core #主要程序逻辑都 在这个目录 里
