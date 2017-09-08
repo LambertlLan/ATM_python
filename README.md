@@ -1,9 +1,13 @@
-作者:Lambert LAN
+作者:Alex Li
 版本:示例版本 v0.1
 程序介绍:
     实现ATM常用功能
-    
-程序结构:
+    功能全部用python的基础知识实现,用到了time\os\sys\json\open\logging\函数\模块知识, 主要帮给大家一个简单的模块化编程的示例
+
+    注意:只实现了"还款"和"取现功能"
+
+程序结构:  
+
 day5-atm/
 ├── README
 ├── atm #ATM主程目录
@@ -16,8 +20,8 @@ day5-atm/
 │   │   ├── __init__.py
 │   │   └── settings.py
 │   ├── core #主要程序逻辑都 在这个目录 里
-│   │   ├── __init__.py
-│   │   ├── accounts.py  #用于从文件里加载和存储账户数据
+│   │   ├── __init__.py  
+│   │   ├── accounts.py  #用于从文件里加载和存储账户数据  
 │   │   ├── auth.py      #用户认证模块
 │   │   ├── db_handler.py   #数据库连接引擎
 │   │   ├── logger.py       #日志记录模块
